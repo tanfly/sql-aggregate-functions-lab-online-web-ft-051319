@@ -1,7 +1,7 @@
 
 
 def highest_student_gpa
-  "SELECT MAX(gpa) FROM cats;"
+  "SELECT MAX(gpa) FROM students;"
 end
 
 def lowest_student_gpa
