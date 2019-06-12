@@ -17,5 +17,5 @@ def total_tardies_for_all_students
 end
 
 def average_gpa_for_9th_grade
-  "SELECT AVG(*) FROM cats WHERE net_worth > 1000000;"
+  "SELECT AVG(gpa) FROM cats WHERE net_worth > 1000000;"
 end
